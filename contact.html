@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Contact</title>
+  </head>
+  <footer class="antialised bg-gray-100">
+    <div class="flex w-full min-h-screen justify-center items-center">
+      <div
+        class="flex flex-col md:flex-row gap-4 md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white"
+      >
+        <div class="flex flex-col space-y-8 justify-between">
+          <div>
+            <h1 class="font-bold text-4xl tracking-wide">Contact us</h1>
+            <p class="pt-2 text-cyan-100 text-sm">
+              Do you want to ask us anything about our services
+            </p>
+          </div>
+          <div class="flex flex-col space-y-6">
+            <div class="inline-flex space-x-2 items-center">
+              <ion-icon
+                name="call-outline"
+                class="text-teal-300 text-xl"
+              ></ion-icon>
+              <span>+(234) 701 408 5472</span>
+            </div>
+          </div>
+          <div>
+            <div class="inline-flex space-x-2 items-center">
+              <ion-icon
+                name="mail-outline"
+                class="text-teal-300 text-xl"
+              ></ion-icon>
+              <span>stemlab@gmail.com</span>
+            </div>
+          </div>
+          <div>
+            <div class="inline-flex space-x-2 items-center">
+              <ion-icon
+                name="location-outline"
+                class="text-teal-300 text-xl"
+              ></ion-icon>
+              <span>60 Ahmadu bello way Kano</span>
+            </div>
+          </div>
+          <div class="flex space-x-4 text-lg">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-4 text-gray-600 w-full">
+          <form action="#" class="flex flex-col space-y-4">
+            <div class="">
+              <label for="name" name="name" class="text-sm">Your Name</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Your name"
+                id="name"
+                class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" name="email" class="text-sm">Email Address</label>
+              <br />
+              <input
+                type="email"
+                id="email"
+                placeholder="Email address"
+                class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                required
+              />
+            </div>
+            <div>
+              <label for="message" name="message" class="text-sm">Message</label>
+              <br />
+              <textarea
+                placeholder=" Message "
+                id="message"
+                rows="4"
+                class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                required
+              ></textarea>
+            </div>
+            <button
+              class="inline-block w-full self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 Uppercase text-sm"
+              id="btn"  
+              >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
